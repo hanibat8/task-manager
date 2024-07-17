@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "module": "commonjs",
+      "target": "es5",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["types/*"],
+          "@dnd-kit/core": ["node_modules/@dnd-kit/core/dist/index.d.ts"],
+          "@dnd-kit/sortable": ["node_modules/@dnd-kit/sortable/dist/index.d.ts"]
+      }
+    },
+    "include": ["src/**/*"]
+  }
+  
