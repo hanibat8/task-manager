@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Description: This is a task manager application having a user panel and admin panel. Admins have access to projects and users pages and can create users, create projects, edit projects and assign projects to users. Users have accesss to projects page and a task manager for each projects tasks and can update the status of those tasks by dragging them between the columns. Have used antd, redux toolkit, axios, typescript, react beautiful dnd and react for this application.
+
+Live url: https://task-manager-pi-ruby.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
